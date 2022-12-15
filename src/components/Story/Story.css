@@ -1,0 +1,133 @@
+.story{
+    background-color: white;
+    margin: 5px 15px;
+    padding: 30px 15px;
+    border-radius: 20px;
+    width: 700px;
+}
+.react-tabs__tab--selected{
+    border: none !important;
+    border-color: none !important;
+    background: none !important;
+    border-bottom: 1px solid #868080!important;
+    color: #9b9696 !important;
+}
+.react-tabs__tab{
+    font-weight: bold !important;
+
+}
+.react-tabs__tab-list{
+    display: flex;
+    justify-content:space-between;
+   
+}
+.storygroups{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    
+   
+  
+
+}
+.storygroups .storygroup{
+    flex: 0 0 auto;
+    width: 150px;
+    height: 250px;
+    margin:15px !important;
+    border-radius: 20px;
+    background-color:#eeeeee ;
+    margin: 15px 0;
+}
+/* width */
+.storygroups::-webkit-scrollbar{
+    height: 5px;
+}
+/* track */
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+/* handle */
+::-webkit-scrollbar-thumb{
+    background: #888;
+}
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+.storygroups .storygroup .storycard{
+   height: 100%;
+}
+.storygroups .storygroup .storycard .hidden{
+    display: none;
+}
+.storygroups .storygroup .storycard label{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.storygroups .storygroup .storycard label .storybody{
+flex: 2;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.storygroups .storygroup .storycard label .storybody img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+.storygroups .storygroup .storycard label .storyfooter{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+.storygroups .storygroup .storycard label .storyfooter svg{
+top: -20px;
+    position: absolute;
+    font-size: 25px;
+background-color: white;
+padding: 5px;
+border-radius: 50%;
+
+}
+.storygroups .storygroup .storycard label .storyfooter h4{
+    margin-top: 30px;
+}
+.storygroups .storygroup .storydiv{
+    position: relative;
+    cursor: pointer;
+}
+
+.storygroups .storygroup .storydiv .storyuser img{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.storygroups .storygroup .storydiv .storyusertittle{
+    position: absolute;
+    bottom: 35px;
+    left:5px;
+    color: #ffffff;
+
+}
+.storyuserimg{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit: cover;
+}
+.storygroups .storygroup .storydiv .storyuserimgdiv{
+position: absolute;
+top: 20px;
+left: 5px;
+}

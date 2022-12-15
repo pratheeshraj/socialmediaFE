@@ -1,0 +1,6 @@
+.mainontainer{
+    min-height: calc(100vh - 110px);
+    display: flex;
+  padding-top: 50px;
+  background-color: #eeeeee;
+}

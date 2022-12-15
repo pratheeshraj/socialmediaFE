@@ -1,0 +1,18 @@
+.unfriend {
+float: right;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(223, 47, 47);
+  color: whitesmoke;
+  border-radius: 10px;
+  transition: all 0.5s;
+  
+  letter-spacing: 1.3px;
+  cursor: pointer;
+}
+.unfriend:hover {
+  background-color: whitesmoke;
+  color:rgb(223, 47, 47);
+}

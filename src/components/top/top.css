@@ -1,0 +1,101 @@
+.top{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 999;
+    align-items: center;
+    height: 80px;
+ display: flex;
+ justify-content: space-between;
+}
+.topleft, .topMiddle, .topRight{
+    display: flex;
+    align-items: center;
+}
+.topleft .logo{
+  font-size: 30px;
+  font-weight: bold;
+  text-transform:uppercase ;
+}
+.topleft .topSearch{
+    position: relative;
+    margin-left: 10px;
+}
+.topleft .topSearch input{
+    border: none;
+    outline: none;
+    width:200px;
+    border-radius: 20px;
+    background-color: rgb(224, 224, 215);
+    height: 30px;
+    color:black;
+    padding: 0 10px;
+}
+.topleft .topSearch svg{
+
+    position: absolute;
+    right: 10px;
+    top: -50%;
+    transform: translateY(145%);
+    color:#a5a5a5 ;
+}
+.topMiddle .topLinks ul{
+    display: flex;
+}
+.topMiddle .topLinks ul li{
+    margin: 0 10px;
+}
+.topMiddle .topLinks ul li a{
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+.topMiddle .topLinks ul li a:hover{
+    border-bottom: 2px solid black;
+
+}
+.topMiddle .topLinks ul li .active{
+    border-bottom: 2px solid black;
+}
+.topRight .notifications{
+    display: flex;
+}
+.topRight .notifications .notification{
+    margin: 0 15px;
+    position: relative;
+    cursor: pointer;
+}
+.topRight .notifications .notification .badge{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.topRight .user {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.topRight .user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.topRight .user .userLogout{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.topRight .user .userLogout:hover{
+    color: #a5a5a5;
+}

@@ -1,0 +1,71 @@
+.post{
+    background-color: white;
+    margin: 40px 15px;
+    padding: 30px 15px;
+    border-radius: 20px;
+    width: 700px;
+}
+
+
+.postuserimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+.postcardheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.postcardheaderleft{
+    display: flex;
+    align-items: center;
+}
+.postcardheaderleft .postinfo{
+    display: flex;
+    flex-direction: column;
+}
+.postuserName{
+    font-weight: bold;
+}
+.postDate{
+    font-size: 12px;
+}
+.postcardheaderright svg{
+    cursor: pointer;
+    font-size: 20px;
+}
+.postcardbody{
+    padding: 15px 0;
+
+}
+.postText{
+    margin-bottom: 5px;
+}
+.postimg{
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+.postcardfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.postcardfooterleft{
+    display: flex;
+
+}
+.postcardfooterleft img{
+    width: 25px;
+    height:auto;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.postcounter , .postcommends{
+    font-weight: bold;
+    font-size: 14px;
+}
